@@ -8,7 +8,7 @@ export default function Main({ animal }) {
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
       { animal.map((item, i) => <AnimalCard 
         {...item}
-        key={ item.catchphrase + i } />)
+        key={ item.name + i } />)
       }
     </main>
   );
