@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div id="header"><Header /></div>
-      <Main animals = { animals }/>
+      <Main animal={ animals }/>
       <div id="footer"><Footer /></div>
     </div>
   );

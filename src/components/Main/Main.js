@@ -1,15 +1,16 @@
 import React from 'react';
 import './Main.css';
 import backgroundImg from '../../background.png';
-import animalCard from '../animalCard/animalCard.js';
+import AnimalCard from '../AnimalCard/AnimalCard.js';
 
 export default function Main({ animal }) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
-      { animal.map((item, i) => <animalCard 
+      { animal.map((item, i) => <AnimalCard 
         {...item}
-        key = { item.catchphrase + i } />)
-      };
+        key={ item.catchphrase + i } />)
+      }
     </main>
   );
 }
+
