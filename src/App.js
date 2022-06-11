@@ -7,9 +7,9 @@ import { animals } from './animalArray.js';
 function App() {
   return (
     <div className="App">
-      <div id="header"><Header /></div>
+      <div id="Header"><Header /></div>
       <Main animal={ animals }/>
-      <div id="footer"><Footer /></div>
+      <div id="Footer"><Footer /></div>
     </div>
   );
 }
